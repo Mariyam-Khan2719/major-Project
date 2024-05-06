@@ -196,7 +196,7 @@ nav .right a {
   margin-top: 0px;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(50px);
-  background-color: rgba(0, 0, 0, 0.685);
+  background-color: rgba(0, 0, 0, 0.384);
 }
 
 .lower_left {
@@ -207,10 +207,10 @@ nav .right a {
 }
 
 .lower_left h1 {
-  font-size: 110px;
+  font-size: 9vw;
   font-weight: 700;
   color: black;
-  background: linear-gradient(to right, #7d39e9 35%, #dc2627);
+  background: linear-gradient(to right, #c1e8ff, #203850, #052659, #0e2341);
   -webkit-text-fill-color: transparent;
   background-clip: content-box;
   -webkit-background-clip: text;
