@@ -111,7 +111,7 @@ document.querySelectorAll(".elem").forEach(function (elem) {
     var diff = e.clientY - elem.getBoundingClientRect().top;
     diffrot = e.clientX - rotate;
     rotate = e.clientX;
-    console.log(rotate);
+    // console.log(rotate);
     // console.log("clientX");
     gsap.to(elem.querySelector("img"), {
       opacity: 1,

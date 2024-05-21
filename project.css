@@ -180,7 +180,6 @@ nav .right a {
   height: 100px;
   border-radius: 50%;
   background: linear-gradient(to top, #203850, #052659, #021024, black);
-
   position: absolute;
   /* z-index: 99; */
   bottom: 5vh;

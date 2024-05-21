@@ -21,31 +21,33 @@
     <div class="header">
       <h1>Switch your code to any programming language</h1>
     </div>
-    <div class="main">
-      <div class="leftside">
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Write Your Code Here"
-        ></textarea>
+    <form action="">
+      <div class="main">
+        <div class="leftside">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Write Your Code Here"
+          ></textarea>
+        </div>
+        <div class="convertbutton">
+          <button class="btn">Convert</button>
+          <select name="language" i mjd="languages" required>
+            <option value="" disabled selected hidden>Language</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="C++">C++</option>
+            <option value="C">C</option>
+            <option value="Javascript">Javascript</option>
+            <option value="Ruby">Ruby</option>
+          </select>
+        </div>
+        <div class="rightside" style="color: white">
+          <textarea name="" id="output" disabled></textarea>
+        </div>
       </div>
-      <div class="convertbutton">
-        <button class="btn">Convert</button>
-        <select name="language" id="languages" required>
-          <option value="" disabled selected hidden>Language</option>
-          <option value="Java">Java</option>
-          <option value="Python">Python</option>
-          <option value="C++">C++</option>
-          <option value="C">C</option>
-          <option value="Javascript">Javascript</option>
-          <option value="Ruby">Ruby</option>
-        </select>
-      </div>
-      <div class="rightside" style="color: white">
-        <textarea name="" id="output" disabled></textarea>
-      </div>
-    </div>
+    </form>
   </body>
 </html>
